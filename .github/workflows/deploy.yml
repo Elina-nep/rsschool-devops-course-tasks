@@ -3,10 +3,10 @@ name: deploy via Terraform
 on:
   pull_request:
     branches:
-      - devolop
+      - develop
   push:
     branches:
-      - devolop
+      - develop
 
 jobs:
   terraform-check:
